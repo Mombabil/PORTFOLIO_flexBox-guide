@@ -1,6 +1,6 @@
 body{
     background: grey;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -48,4 +48,18 @@ button{
     width: 200px;
     margin: auto;
     font-size: 14px;
+}
+
+@media screen and (max-width: 900px){
+    main{
+        flex-direction: column-reverse;
+    }
+    .content{
+        width: 320px;
+        height: 320px;
+    }
+    .items{
+        width: 38px;
+        height: 38px;
+    }
 }

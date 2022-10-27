@@ -1,0 +1,51 @@
+body{
+    background: grey;
+    height: 100vh;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    text-align: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    width: 800px;
+    border: 3px solid black;
+    height: 800px;
+    border-radius: 10px;
+    display: flex;
+    background: #4a69bd;
+    overflow-x: auto;
+}
+.items{
+    width: 98px;
+    height: 98px;
+    border: 1px solid black;
+    background: #e55039;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    transition: 1s ease-in-out;
+    font-size: 16px;
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    height: 800px;
+}
+h2{
+    margin: 0;
+}
+button{
+    margin: 5px;
+    border-radius: 10px;
+    width: 200px;
+    margin: auto;
+    font-size: 14px;
+}

@@ -4,7 +4,7 @@ body{
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-h1{
+h4{
     text-align: center;
 }
 main{
@@ -39,7 +39,7 @@ main{
     padding-left: 15px;
     height: 800px;
 }
-h2{
+h5{
     margin: 0;
 }
 button{
